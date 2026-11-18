@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Busan">
+<meta name="theme-color" content="#f7dce8">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' rx='38' fill='%23f7dce8'/%3E%3Cpath d='M22 112 Q55 82 90 112 T158 112 V158 H22Z' fill='%239bc9e8'/%3E%3Cpath d='M22 132 Q55 102 90 132 T158 132' fill='none' stroke='white' stroke-width='7'/%3E%3Ctext x='90' y='78' font-size='47' text-anchor='middle' font-family='Arial' font-weight='bold' fill='%23536d86'%3EB%3C/text%3E%3C/svg%3E">
+<meta name="format-detection" content="telephone=no">
+<title>Busan｜2026小夫妻釜山行</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#e99fbd;--pink2:#f9e7ef;--blue:#8dbbdc;--blue2:#e8f3fa;--ink:#344354;--muted:#7c8996;--line:#e9edf1;--paper:#fff;--bg:#f8fafc;--shadow:0 8px 26px rgba(73,95,117,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,"Noto Sans TC",sans-serif;letter-spacing:.035em;line-height:1.7;touch-action:manipulation}button,input,select{font:inherit}button,a,label{-webkit-tap-highlight-color:transparent}a{color:#4d8db7;text-decoration:none}a:focus,button:focus,input:focus,select:focus{outline:2px solid #9bc9e8;outline-offset:2px}.wrap{width:min(100%,430px);margin:auto;padding:0 15px 40px}.hero{padding:28px 5px 18px}.eyebrow{font-size:11px;letter-spacing:.18em;color:#bd7797;font-weight:700}.hero h1{font-size:25px;line-height:1.35;margin:7px 0 5px;letter-spacing:.04em}.sub{font-size:13px;color:var(--muted)}.pills{display:flex;gap:7px;flex-wrap:wrap;margin-top:13px}.pill{background:var(--pink2);color:#a45f7d;border-radius:99px;padding:4px 10px;font-size:11px}.pill.blue{background:var(--blue2);color:#527f9d}
+.card{background:var(--paper);border:1px solid #f0f2f5;border-radius:19px;padding:15px;margin:12px 0;box-shadow:var(--shadow)}.card h2{font-size:16px;margin:0 0 10px}.card h3{font-size:14px;margin:0 0 5px}.muted{color:var(--muted);font-size:12px}.flightgrid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.flight{background:linear-gradient(145deg,#fff8fb,#f2f8fc);padding:11px;border-radius:14px;min-width:0}.flight strong{display:block;color:#a65e80;font-size:13px}.flight .num{font-size:17px;font-weight:800;letter-spacing:.04em}.flight p{font-size:11px;line-height:1.55;margin:4px 0 0;color:#687887}
+.section-title{font-size:17px;font-weight:800;margin:20px 3px 8px}.tools{display:grid;gap:10px}.field{display:grid;gap:4px;font-size:12px;color:var(--muted)}input,select{width:100%;min-width:0;border:1px solid var(--line);border-radius:11px;background:white;padding:10px 11px;font-size:16px;color:var(--ink)}.row2{display:grid;grid-template-columns:1fr 1fr;gap:8px}.btn{border:0;border-radius:12px;padding:10px 13px;background:#8dbbdc;color:white;font-weight:700;font-size:13px;cursor:pointer}.btn.pink{background:#dfa0bb}.btn.ghost{background:#f4f7fa;color:#65788a;border:1px solid var(--line)}.btn.danger{background:#fff0f2;color:#b75e6b;border:1px solid #f4d7dd}.btn:active{transform:scale(.98)}.moneyresult{display:flex;justify-content:space-between;gap:8px;align-items:center;background:#f5f9fc;border-radius:12px;padding:10px 12px;font-size:12px}.moneyresult strong{font-size:18px;color:#5685a6}.togglehead{display:flex;align-items:center;justify-content:space-between;gap:8px}.togglehead h2{margin:0}.collapsebody{margin-top:12px}.collapsed .collapsebody{display:none}.addgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.addgrid .wide{grid-column:1/-1}.stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}.stat{background:#f7f9fb;border-radius:12px;padding:9px}.stat b{display:block;font-size:16px;color:#668ba8}.entry{border-top:1px solid var(--line);padding:9px 0;font-size:12px;display:flex;justify-content:space-between;gap:8px}.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:18px 0 12px}.tabs label{background:#fff;border:1px solid var(--line);border-radius:12px;padding:9px 4px;text-align:center;font-size:12px;color:#758493;cursor:pointer}.tabs label span{display:block;font-size:10px;color:#a1acb7}.tabs label.last{grid-column:1/-1}.tabradio{position:absolute;opacity:0;pointer-events:none}.daypanel{display:none}.tabradio:checked+label{background:linear-gradient(135deg,#f8e5ed,#e8f3fa);border-color:#e7c3d3;color:#965e79;font-weight:800}.tabradio:checked+label span{color:#6689a2}
+#d1:checked~.tabs label[for="d1"],#d2:checked~.tabs label[for="d2"],#d3:checked~.tabs label[for="d3"],#d4:checked~.tabs label[for="d4"],#d5:checked~.tabs label[for="d5"],#prep:checked~.tabs label[for="prep"]{background:linear-gradient(135deg,#f8e5ed,#e8f3fa);border-color:#e7c3d3;color:#965e79;font-weight:800}
+#d1:checked~.tabs label[for="d1"] span,#d2:checked~.tabs label[for="d2"] span,#d3:checked~.tabs label[for="d3"] span,#d4:checked~.tabs label[for="d4"] span,#d5:checked~.tabs label[for="d5"] span,#prep:checked~.tabs label[for="prep"] span{color:#6689a2}
+#d1:checked~.panels #panel1,#d2:checked~.panels #panel2,#d3:checked~.panels #panel3,#d4:checked~.panels #panel4,#d5:checked~.panels #panel5,#prep:checked~.panels #panelprep{display:block}
+.stay{background:#f8fbfd;border-radius:14px;padding:11px;margin:8px 0}.address{font-size:12px;overflow-wrap:anywhere;background:#fff;border:1px dashed #cbdce8;padding:9px;border-radius:10px;margin:7px 0}.copyrow{display:flex;gap:7px;align-items:stretch}.copyrow .address{flex:1;margin:0}.copyrow button{flex-shrink:0}.weather{background:linear-gradient(130deg,#f5eaf0,#eaf5fb);border-radius:14px;padding:12px;margin:10px 0}.weather strong{color:#a35f80}.weather .status{font-size:20px;font-weight:800;margin:2px 0}.timeline{position:relative;padding-left:17px;margin:12px 0 5px}.timeline:before{content:"";position:absolute;left:4px;top:6px;bottom:6px;width:2px;background:#dceaf2}.stop{position:relative;padding:0 0 15px 12px}.stop:before{content:"";position:absolute;left:-17px;top:8px;width:9px;height:9px;border-radius:50%;background:#e5a8c2;border:2px solid white;box-shadow:0 0 0 1px #e5a8c2}.stop b{font-size:13px;color:#a76886}.stop p{margin:2px 0 0;font-size:12px;color:#697988}.maplink{display:inline-block;font-size:12px;background:#edf6fb;padding:5px 9px;border-radius:9px;margin:5px 5px 0 0}.notice{font-size:11px;color:#8995a1}.checklist{display:grid;gap:8px}.checkitem{display:flex;gap:9px;align-items:flex-start;background:#fafbfd;border:1px solid var(--line);padding:9px 10px;border-radius:11px;font-size:13px}.checkitem input{width:19px;height:19px;min-width:19px;margin:1px 0 0;accent-color:#d98eae}.empty{font-size:12px;color:#9aa5af;padding:8px 0}.footer{text-align:center;color:#a1abb5;font-size:10px;padding:22px 0}.warning{font-size:12px;background:#fff8ee;border:1px solid #f3e5c9;padding:10px;border-radius:12px;color:#8a744f}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+<div class="eyebrow">BUSAN · KOREA · WINTER TRIP</div>
+<h1>2026小夫妻釜山行</h1>
+<div class="sub">2026/12/22 – 12/26　・　5天4夜</div>
+<div class="pills"><span class="pill">2位成人</span><span class="pill blue">韓系冬日旅行</span><span class="pill">KRW / TWD</span></div>
+</header>
+
+<section class="card">
+<h2>✈ 航班資訊</h2>
+<div class="flightgrid">
+<div class="flight"><strong>去程 · 12/22</strong><div class="num">LJ752</div><p>上午 2:40 → 上午 6:02<br>桃園機場 → 釜山金海機場</p></div>
+<div class="flight"><strong>回程 · 12/26</strong><div class="num">LJ751</div><p>晚上 22:00 → 晚上 23:40<br>釜山金海機場 → 桃園機場</p></div>
+</div>
+</section>
+
+<section class="card" id="currency">
+<h2>💱 匯率換算</h2>
+<div class="row2">
+<label class="field">韓元 KRW（每 1 KRW = TWD）<input id="rate" type="number" inputmode="decimal" step="0.00001" value="0.02474"></label>
+<label class="field">新台幣 TWD（每 1 TWD = KRW）<input id="reverseRate" type="number" inputmode="decimal" step="0.01" value="40.43"></label>
+</div>
+<div class="row2" style="margin-top:8px">
+<label class="field">輸入金額<input id="convertAmount" type="number" inputmode="decimal" placeholder="輸入金額"></label>
+<label class="field">幣別<select id="convertCurrency"><option value="KRW">韓元 KRW</option><option value="TWD">新台幣 TWD</option></select></label>
+</div>
+<div class="moneyresult" style="margin-top:9px"><span>換算結果（TWD）</span><strong id="converted">NT$ 0</strong></div>
+<p class="notice">預設匯率依你提供：1 KRW = 0.02474 TWD；1 TWD = 40.43 KRW。可自行修改。</p>
+</section>
+
+<section class="card collapsed" id="ledger">
+<div class="togglehead"><h2>🧾 旅行記帳</h2><button class="btn ghost" id="ledgerToggle" type="button">展開</button></div>
+<div class="collapsebody">
+<div class="addgrid">
+<label class="field">日期<select id="expenseDay"><option value="Day1">Day 1 · 12/22</option><option value="Day2">Day 2 · 12/23</option><option value="Day3">Day 3 · 12/24</option><option value="Day4">Day 4 · 12/25</option><option value="Day5">Day 5 · 12/26</option></select></label>
+<label class="field">分類<select id="expenseCategory"><option>購物</option><option>食物</option><option>交通</option><option>自行輸入</option></select></label>
+<label class="field wide">名稱<input id="expenseName" type="text" placeholder="例如：咖啡、車資"></label>
+<label class="field">金額<input id="expenseAmount" type="number" inputmode="decimal" placeholder="0"></label>
+<label class="field">幣別<select id="expenseCurrency"><option value="KRW">韓元 KRW</option><option value="TWD">新台幣 TWD</option></select></label>
+<button class="btn pink wide" id="addExpense" type="button">＋ 新增記帳</button>
+</div>
+<div class="stats" style="margin-top:12px">
+<div class="stat"><span class="muted">總支出（台幣）</span><b id="totalExpense">NT$ 0</b></div>
+<div class="stat"><span class="muted">記帳筆數</span><b id="expenseCount">0</b></div>
+</div>
+<h3 style="margin-top:14px">依天數統計</h3><div id="dayStats" class="notice">尚無記帳資料</div>
+<h3 style="margin-top:12px">依分類統計</h3><div id="categoryStats" class="notice">尚無記帳資料</div>
+<h3 style="margin-top:12px">明細</h3><div id="expenseList"><div class="empty">尚無記帳資料。</div></div>
+<button class="btn danger" id="clearStart" type="button" style="margin-top:8px">清空全部記帳</button>
+<div id="clearConfirm" hidden style="margin-top:9px;padding:10px;background:#fff4f5;border-radius:12px">
+<div style="font-size:12px;margin-bottom:8px">確定要刪除所有記帳資料嗎？此操作無法復原。</div>
+<div class="row2"><button class="btn danger" id="clearYes" type="button">確認清空</button><button class="btn ghost" id="clearNo" type="button">取消</button></div>
+</div>
+</div>
+</section>
+
+<input class="tabradio" type="radio" name="tabs" id="d1" checked>
+<label for="d1" class="tabradio-label" hidden></label>
+<input class="tabradio" type="radio" name="tabs" id="d2">
+<input class="tabradio" type="radio" name="tabs" id="d3">
+<input class="tabradio" type="radio" name="tabs" id="d4">
+<input class="tabradio" type="radio" name="tabs" id="d5">
+<input class="tabradio" type="radio" name="tabs" id="prep">
+<div class="tabs">
+<label for="d1">Day 1<span>12/22</span></label><label for="d2">Day 2<span>12/23</span></label><label for="d3">Day 3<span>12/24</span></label><label for="d4">Day 4<span>12/25</span></label><label for="d5">Day 5<span>12/26</span></label><label for="prep" class="last">出發前確認清單<span>CHECKLIST</span></label>
+</div>
+<div class="panels">
+<section class="daypanel" id="panel1">
+<div class="section-title">DAY 01 · 抵達釜山</div>
+<div class="card">
+<h2>住宿</h2><div class="stay"><b>釜山 CONNECT OCEAN</b><div class="muted">115-1 Daegyo-ro, Jung-gu, Busan, 南韓</div><div class="copyrow" style="margin-top:8px"><div class="address" id="addr-hotel">115-1 Daegyo-ro, Jung-gu, Busan, 南韓</div><button class="btn" data-copy="addr-hotel">複製地址</button></div><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Busan+CONNECT+OCEAN+115-1+Daegyo-ro+Jung-gu+Busan">住宿地圖</a></div>
+<div class="muted">交通：大巴 10小時</div>
+<div class="weather"><strong>☁ 當日天氣｜釜山</strong><div class="status">待確認</div><div class="muted">2026/12/22 尚超出可可靠查詢的逐日預報範圍，最高溫：待確認｜最低溫：待確認｜降雨機率：待確認。</div><p class="notice">穿搭提醒：冬季行程請出發前再確認氣溫，先準備保暖分層衣物。</p><a target="_blank" rel="noopener" href="https://www.google.com/search?q=Busan+2026%2F12%2F22+weather">Google 搜尋：釜山 12/22 天氣</a><div class="notice">資料來源：目前無可用的該日逐日預報；查詢日期：2026/11/18。</div></div>
+<h2>行程時間軸</h2><div class="timeline">
+<div class="stop"><b>桃園國際機場 → 釜山金海國際機場</b><p>去程 LJ752｜上午 2:40~上午 6:02</p><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Gimhae+International+Airport">地圖</a></div>
+<div class="stop"><b>HILLSPA 海景汗蒸幕＋露天足湯</b><p>行程順序依你提供；時間待確認。</p><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=HILLSPA+Busan">在地圖上看</a></div>
+<div class="stop"><b>海雲台藍線公園海洋觀光列車</b><p>單程券、青沙浦→松亭；單程約15分鐘。</p><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Haeundae+Blueline+Park+Cheongsapo">在地圖上看</a></div>
+<div class="stop"><b>青沙浦紅白燈塔</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Cheongsapo+Red+White+Lighthouse">在地圖上看</a></div>
+<div class="stop"><b>青沙浦踏石天空步道</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Cheongsapo+Dari+石天空步道">在地圖上看</a></div>
+<div class="stop"><b>海雲台傳統市場～小吃一條街</b><p>晚餐自理。</p><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Haeundae+Traditional+Market">在地圖上看</a></div>
+<div class="stop"><b>飯店</b></div></div>
+<h2>候選餐廳／景點</h2><div class="empty">未提供候選名單，暫不新增店家資料。</div>
+</div></section>
+
+<section class="daypanel" id="panel2">
+<div class="section-title">DAY 02 · 慶州文化巡禮</div><div class="card">
+<h2>住宿</h2><div class="stay"><b>釜山 CONNECT OCEAN</b><div class="muted">115-1 Daegyo-ro, Jung-gu, Busan, 南韓</div><div class="copyrow" style="margin-top:8px"><div class="address" id="addr-hotel2">115-1 Daegyo-ro, Jung-gu, Busan, 南韓</div><button class="btn" data-copy="addr-hotel2">複製地址</button></div></div><div class="muted">交通：大巴 10小時</div>
+<div class="weather"><strong>☁ 當日天氣｜慶州</strong><div class="status">待確認</div><div class="muted">2026/12/23 尚超出可可靠查詢的逐日預報範圍；最高溫：待確認｜最低溫：待確認｜降雨機率：待確認。</div><p class="notice">穿搭提醒：戶外古蹟步行較多，建議保暖外套與好走的鞋。</p><a target="_blank" rel="noopener" href="https://www.google.com/search?q=Gyeongju+2026%2F12%2F23+weather">Google 搜尋：慶州 12/23 天氣</a><div class="notice">資料來源：目前無可用的該日逐日預報；查詢日期：2026/11/18。</div></div>
+<h2>行程時間軸</h2><div class="timeline">
+<div class="stop"><b>飯店 → 世界文化遺產〜佛國寺</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bulguksa+Temple">在地圖上看</a></div>
+<div class="stop"><b>慶州普門觀光園區（普門湖＋大水車公園）</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bomun+Lake+Gyeongju">在地圖上看</a></div>
+<div class="stop"><b>統一殿</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Tongiljeon+Gyeongju">在地圖上看</a></div>
+<div class="stop"><b>慶州古老石橋～月精橋</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Woljeonggyo+Bridge">在地圖上看</a></div>
+<div class="stop"><b>慶州校村崔氏古宅</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Gyeongju+Gyochon+Traditional+Village">在地圖上看</a></div>
+<div class="stop"><b>韓劇「善德女王」拍攝地～瞻星台</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Cheomseongdae+Observatory">在地圖上看</a></div>
+<div class="stop"><b>國立慶州博物館</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Gyeongju+National+Museum">在地圖上看</a></div>
+<div class="stop"><b>皇理團路（粉黛亂紫草）</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hwangnidan-gil">在地圖上看</a></div><div class="stop"><b>飯店</b></div></div>
+<h2>候選餐廳／景點</h2><div class="empty">未提供候選名單，暫不新增店家資料。</div>
+</div></section>
+
+<section class="daypanel" id="panel3">
+<div class="section-title">DAY 03 · 海岸寺院與雪地體驗</div><div class="card">
+<h2>住宿</h2><div class="stay"><b>釜山 CONNECT OCEAN</b><div class="muted">115-1 Daegyo-ro, Jung-gu, Busan, 南韓</div><div class="copyrow" style="margin-top:8px"><div class="address" id="addr-hotel3">115-1 Daegyo-ro, Jung-gu, Busan, 南韓</div><button class="btn" data-copy="addr-hotel3">複製地址</button></div></div><div class="muted">交通：大巴 10小時</div>
+<div class="weather"><strong>☁ 當日天氣｜釜山／滑雪場所在地</strong><div class="status">待確認</div><div class="muted">2026/12/24 尚超出可可靠查詢的逐日預報範圍；最高溫：待確認｜最低溫：待確認｜降雨機率：待確認。</div><p class="notice">穿搭提醒：滑雪活動請依主辦方裝備與現場氣溫調整保暖層。</p><a target="_blank" rel="noopener" href="https://www.google.com/search?q=Busan+2026%2F12%2F24+weather">Google 搜尋：釜山 12/24 天氣</a><div class="notice">資料來源：目前無可用的該日逐日預報；查詢日期：2026/11/18。</div></div>
+<h2>行程時間軸</h2><div class="timeline">
+<div class="stop"><b>飯店 → 海東龍宮寺</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Haedong+Yonggungsa+Temple">在地圖上看</a></div>
+<div class="stop"><b>伊甸園滑雪場半日滑雪活動</b><p>丟雪球、堆雪人、打雪仗。含雪具：雪橇＋雪鞋＋雪杖＋雪衣＋雪褲或雪盆（二擇一）。</p><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Eden+Valley+Ski+Resort">在地圖上看</a></div>
+<div class="stop"><b>午餐自理</b></div><div class="stop"><b>飯店</b></div></div>
+<h2>候選餐廳／景點</h2><div class="empty">未提供候選名單，暫不新增店家資料。</div>
+</div></section>
+
+<section class="daypanel" id="panel4">
+<div class="section-title">DAY 04 · 釜山巷弄與市場</div><div class="card">
+<h2>住宿</h2><div class="stay"><b>釜山 CONNECT OCEAN</b><div class="muted">115-1 Daegyo-ro, Jung-gu, Busan, 南韓</div><div class="copyrow" style="margin-top:8px"><div class="address" id="addr-hotel4">115-1 Daegyo-ro, Jung-gu, Busan, 南韓</div><button class="btn" data-copy="addr-hotel4">複製地址</button></div></div><div class="muted">交通：大巴 10小時</div>
+<div class="weather"><strong>☁ 當日天氣｜釜山</strong><div class="status">待確認</div><div class="muted">2026/12/25 尚超出可可靠查詢的逐日預報範圍；最高溫：待確認｜最低溫：待確認｜降雨機率：待確認。</div><p class="notice">穿搭提醒：市場與海岸步行行程，建議洋蔥式穿搭並備防風外套。</p><a target="_blank" rel="noopener" href="https://www.google.com/search?q=Busan+2026%2F12%2F25+weather">Google 搜尋：釜山 12/25 天氣</a><div class="notice">資料來源：目前無可用的該日逐日預報；查詢日期：2026/11/18。</div></div>
+<h2>行程時間軸</h2><div class="timeline">
+<div class="stop"><b>飯店 → 甘川洞文化村（贈送地圖）</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Gamcheon+Culture+Village">在地圖上看</a></div>
+<div class="stop"><b>韓國時尚彩妝店</b><p>店家名稱與地址待確認。</p></div>
+<div class="stop"><b>海苔博物館</b><p>季節水果大福DIY＋傳統甜米釀／韓式米果品嚐＋韓服體驗。</p><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Busan+Seaweed+Museum">在地圖上看</a></div>
+<div class="stop"><b>白險灘壁畫村＋絕影海岸道路</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Huinnyeoul+Culture+Village">在地圖上看</a></div>
+<div class="stop"><b>國際市場（南浦洞、光復洞、BIFF國際電影廣場）</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=BIFF+Square+Busan">在地圖上看</a></div>
+<div class="stop"><b>富平罐頭市場</b><p>晚餐自理。</p><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bupyeong+Kkangtong+Market">在地圖上看</a></div><div class="stop"><b>飯店</b></div></div>
+<h2>候選餐廳／景點</h2><div class="empty">未提供候選名單，暫不新增店家資料。</div>
+</div></section>
+
+<section class="daypanel" id="panel5">
+<div class="section-title">DAY 05 · 最後巡禮與返家</div><div class="card">
+<h2>住宿</h2><div class="stay"><b>溫暖的家</b><div class="muted">當日返家，不另列住宿地址。</div></div><div class="muted">交通：大巴 10小時</div>
+<div class="weather"><strong>☁ 當日天氣｜釜山／金海</strong><div class="status">待確認</div><div class="muted">2026/12/26 尚超出可可靠查詢的逐日預報範圍；最高溫：待確認｜最低溫：待確認｜降雨機率：待確認。</div><p class="notice">穿搭提醒：戶外景點與機場移動時間長，建議保暖、方便穿脫的衣物。</p><a target="_blank" rel="noopener" href="https://www.google.com/search?q=Busan+2026%2F12%2F26+weather">Google 搜尋：釜山 12/26 天氣</a><div class="notice">資料來源：目前無可用的該日逐日預報；查詢日期：2026/11/18。</div></div>
+<h2>行程時間軸</h2><div class="timeline">
+<div class="stop"><b>飯店 → 草梁故事路168階梯單軌列車</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Choryang+Ibagu-gil+168+Stairs">在地圖上看</a></div>
+<div class="stop"><b>松島天空步道 SKY WALK</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Songdo+Skywalk+Busan">在地圖上看</a></div>
+<div class="stop"><b>威尼斯彩色小漁村（長林浦口＋紅頂風車屋＋彩色貨櫃屋）</b><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Jangrim+Port+Busan">在地圖上看</a></div>
+<div class="stop"><b>金海加耶主題公園</b><p>四季花園、塗鴉秀 GAYA王國＋星光庭園＋3D立體影像秀。</p><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Gimhae+Gaya+Theme+Park">在地圖上看</a></div>
+<div class="stop"><b>釜山國際機場 → 桃園國際機場</b><p>回程 LJ751｜晚上 22:00~晚上 23:40</p><a class="maplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Gimhae+International+Airport">機場地圖</a></div></div>
+<h2>候選餐廳／景點</h2><div class="empty">未提供候選名單，暫不新增店家資料。</div>
+</div></section>
+
+<section class="daypanel" id="panelprep">
+<div class="section-title">出發前確認清單</div><div class="card"><h2>待辦事項</h2><div class="checklist" id="todoList">
+<label class="checkitem"><input type="checkbox" data-check="todo-insurance">旅遊平安險</label>
+<label class="checkitem"><input type="checkbox" data-check="todo-entry">入境申報</label>
+<label class="checkitem"><input type="checkbox" data-check="todo-passport">護照</label>
+<label class="checkitem"><input type="checkbox" data-check="todo-esim">ESIM</label>
+</div></div>
+<div class="card"><h2>行李／穿搭清單</h2><p class="muted">目前未提供行李項目，可自行新增勾選項目。</p><div class="row2"><input id="customPack" type="text" placeholder="輸入行李項目"><button class="btn" id="addPack" type="button">新增項目</button></div><div class="checklist" id="packList" style="margin-top:10px"></div></div>
+<div class="card"><h2>其他提醒</h2><div class="warning">電壓、天氣、小費、禁忌：你有列出提醒主題，但未提供具體內容；此處先不自行補寫，出發前請再確認。</div></div>
+</section>
+</div>
+<div class="footer">Busan · 2026小夫妻釜山行<br>旅程資料依使用者提供內容整理</div>
+</div>
+<script>
+(function(){
+'use strict';
+var $=function(id){return document.getElementById(id)};
+function safeGet(k,fallback){try{var v=localStorage.getItem(k);return v===null?fallback:JSON.parse(v)}catch(e){return fallback}}
+function safeSet(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+function fmt(n){return 'NT$ '+(Number(n)||0).toLocaleString('zh-TW',{maximumFractionDigits:0})}
+function rate(){return Math.max(0,Number($('rate').value)||0)}
+function toTwd(amount,currency){return currency==='TWD'?amount:amount*rate()}
+function updateConvert(){var n=Number($('convertAmount').value)||0;$('converted').textContent=fmt(toTwd(n,$('convertCurrency').value))}
+['rate','reverseRate','convertAmount','convertCurrency'].forEach(function(id){$(id).addEventListener('input',updateConvert);$(id).addEventListener('change',updateConvert)});
+var ledger=safeGet('busan_ledger',[]);
+function renderLedger(){
+ var total=0,byDay={},byCat={};
+ ledger.forEach(function(x){var v=toTwd(x.amount,x.currency);total+=v;byDay[x.day]=(byDay[x.day]||0)+v;byCat[x.category]=(byCat[x.category]||0)+v});
+ $('totalExpense').textContent=fmt(total);$('expenseCount').textContent=ledger.length;
+ $('dayStats').innerHTML=Object.keys(byDay).length?Object.keys(byDay).map(function(k){return '<div class="entry"><span>'+k+'</span><b>'+fmt(byDay[k])+'</b></div>'}).join(''):'尚無記帳資料';
+ $('categoryStats').innerHTML=Object.keys(byCat).length?Object.keys(byCat).map(function(k){return '<div class="entry"><span>'+escapeHtml(k)+'</span><b>'+fmt(byCat[k])+'</b></div>'}).join(''):'尚無記帳資料';
+ $('expenseList').innerHTML=ledger.length?ledger.map(function(x,i){return '<div class="entry"><span>'+escapeHtml(x.day)+' · '+escapeHtml(x.category)+'<br>'+escapeHtml(x.name)+' <span class="muted">('+Number(x.amount).toLocaleString()+' '+x.currency+')</span></span><b>'+fmt(toTwd(x.amount,x.currency))+'<br><button class="btn ghost" data-del="'+i+'" style="padding:4px 8px;margin-top:4px">刪除</button></b></div>'}).join(''):'<div class="empty">尚無記帳資料。</div>';
+ $('expenseList').querySelectorAll('[data-del]').forEach(function(b){b.addEventListener('click',function(){ledger.splice(Number(b.dataset.del),1);safeSet('busan_ledger',ledger);renderLedger()})});
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+$('addExpense').addEventListener('click',function(){var name=$('expenseName').value.trim(),amount=Number($('expenseAmount').value);if(!name||!Number.isFinite(amount)||amount<=0){$('expenseName').focus();return}ledger.push({day:$('expenseDay').value,category:$('expenseCategory').value,name:name,amount:amount,currency:$('expenseCurrency').value});safeSet('busan_ledger',ledger);$('expenseName').value='';$('expenseAmount').value='';renderLedger()});
+var isCollapsed=safeGet('busan_ledger_collapsed',true);
+function setCollapse(v){$('ledger').classList.toggle('collapsed',v);$('ledgerToggle').textContent=v?'展開':'收起';safeSet('busan_ledger_collapsed',v)}
+setCollapse(isCollapsed);$('ledgerToggle').addEventListener('click',function(){setCollapse(!$('ledger').classList.contains('collapsed'))});
+$('clearStart').addEventListener('click',function(){$('clearConfirm').hidden=false});
+$('clearNo').addEventListener('click',function(){$('clearConfirm').hidden=true});
+$('clearYes').addEventListener('click',function(){ledger=[];safeSet('busan_ledger',ledger);$('clearConfirm').hidden=true;renderLedger()});
+document.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){var el=$(b.dataset.copy),text=el.textContent.trim();if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(function(){b.textContent='已複製';setTimeout(function(){b.textContent='複製地址'},1500)}).catch(function(){fallbackCopy(el,b)})}else fallbackCopy(el,b)})});
+function fallbackCopy(el,b){var range=document.createRange();range.selectNodeContents(el);var sel=window.getSelection();sel.removeAllRanges();sel.addRange(range);b.textContent='請長按複製';}
+document.querySelectorAll('[data-check]').forEach(function(c){c.checked=!!safeGet('busan_check_'+c.dataset.check,false);c.addEventListener('change',function(){safeSet('busan_check_'+c.dataset.check,c.checked)})});
+var packs=safeGet('busan_pack',[]);
+function renderPacks(){$('packList').innerHTML=packs.map(function(p,i){return '<label class="checkitem"><input type="checkbox" data-pack="'+i+'" '+(p.done?'checked':'')+'>'+escapeHtml(p.name)+'</label>'}).join('')||'<div class="empty">尚未新增項目。</div>';$('packList').querySelectorAll('[data-pack]').forEach(function(c){c.addEventListener('change',function(){packs[Number(c.dataset.pack)].done=c.checked;safeSet('busan_pack',packs)})})}
+$('addPack').addEventListener('click',function(){var v=$('customPack').value.trim();if(!v)return;packs.push({name:v,done:false});safeSet('busan_pack',packs);$('customPack').value='';renderPacks()});
+renderPacks();renderLedger();updateConvert();
+})();
+</script>
+</body>
+</html>
